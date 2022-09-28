@@ -14,17 +14,32 @@
                     <h1 id="hex-code"></h1>
                     <span id="copy-message"></span>
                 </div>
-                <input
-                    type="range"
-                    id="red-range"
-                    min="0"
-                    max="255"
-                    step="1"
-                    value="0"
-                />
-                <input type="range" id="green-range" min="0" max="255" />
-                <input type="range" id="blue-range" min="0" max="255" />
-                <button id="btn-change">Change Color</button>
+                <div id="ranges-container">
+                    <input
+                        type="range"
+                        id="red-range"
+                        min="0"
+                        max="255"
+                        step="1"
+                        value="0"
+                        name="red"
+                    />
+                    <input
+                        type="range"
+                        name="green"
+                        id="green-range"
+                        min="0"
+                        max="255"
+                    />
+                    <input
+                        type="range"
+                        name="blue"
+                        id="blue-range"
+                        min="0"
+                        max="255"
+                    />
+                </div>
+                <button id="btn-change">Generate Color</button>
             </div>
         </div>
 
